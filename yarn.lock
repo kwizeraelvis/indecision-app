@@ -2243,10 +2243,10 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-exenv@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.0.tgz#3835f127abf075bfe082d0aed4484057c78e3c89"
-  integrity sha1-ODXxJ6vwdb/ggtCu1EhAV8eOPIk=
+exenv@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
 
 expand-brackets@^2.1.4:
   version "2.1.4"
@@ -4590,11 +4590,6 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom-factories@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
-  integrity sha1-63cFxNs2+1AbOqOP91lhaqD/luA=
-
 react-dom@^16.10.2:
   version "16.10.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.10.2.tgz#4840bce5409176bc3a1f2bd8cb10b92db452fda6"
@@ -4610,14 +4605,13 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
   integrity sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA==
 
-react-modal@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-2.2.2.tgz#4bbf98bc506e61c446c9f57329c7a488ea7d504b"
-  integrity sha512-tdgyEyfbyfzDUj40XtWldAQe7e+yhJDUtVSlsQ9AQCGifzWck6v1XTtIVGViVftOsEA3cBWCZCjF3rq6FPJzMg==
+react-modal@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-2.4.1.tgz#cb09b26711b148eb9f59cb180e1b7d82980ded05"
+  integrity sha512-3WQCn3xqkbEUvxRUO3nkeqxMNgt1F4CyEU3BiUIrg7C71tnqjQIuSE7+JXp85yFl8X1iRTJouySNpwNqv4kiWg==
   dependencies:
-    exenv "1.2.0"
+    exenv "^1.2.0"
     prop-types "^15.5.10"
-    react-dom-factories "^1.0.0"
 
 react@^16.10.2:
   version "16.10.2"
